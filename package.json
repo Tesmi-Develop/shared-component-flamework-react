@@ -1,6 +1,6 @@
 {
-  "name": "@rbxts/package-name",
-  "version": "1.0.0",
+  "name": "@rbxts/flamework-shared-components-react",
+  "version": "1.0.2",
   "description": "",
   "main": "out/init.lua",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "types": "out/index.d.ts",
   "files": [
     "out",
@@ -33,5 +33,10 @@
     "prettier": "^3.2.4",
     "roblox-ts": "^2.2.0",
     "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@rbxts/pretty-react-hooks": "^0.3.3",
+    "@rbxts/roact": "npm:@rbxts/react-ts@^1.0.1",
+    "@rbxts/shared-components-flamework": "^1.1.5"
   }
 }
