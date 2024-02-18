@@ -1,4 +1,4 @@
-import { useEffect, useState } from "@rbxts/roact";
+import { useState, useEffect } from "@rbxts/react";
 import UseSharedComponent from "./use-shared-component";
 import { SharedComponent } from "@rbxts/shared-components-flamework";
 

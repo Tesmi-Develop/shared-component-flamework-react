@@ -1,6 +1,6 @@
 {
   "name": "@rbxts/flamework-shared-components-react",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "",
   "main": "out/init.lua",
   "scripts": {
@@ -22,8 +22,8 @@
     "access": "public"
   },
   "devDependencies": {
-    "@rbxts/compiler-types": "^2.2.0-types.0",
-    "@rbxts/types": "^1.0.744",
+    "@rbxts/compiler-types": "^2.3.0-types.0",
+    "@rbxts/types": "^1.0.754",
     "@typescript-eslint/eslint-plugin": "^6.19.0",
     "@typescript-eslint/parser": "^6.19.0",
     "eslint": "^8.56.0",
@@ -31,12 +31,13 @@
     "eslint-plugin-prettier": "^5.1.3",
     "eslint-plugin-roblox-ts": "^0.0.36",
     "prettier": "^3.2.4",
-    "roblox-ts": "^2.2.0",
+    "roblox-ts": "^2.3.0-dev-c565124",
     "typescript": "^5.3.3"
   },
   "dependencies": {
     "@rbxts/pretty-react-hooks": "^0.3.3",
-    "@rbxts/roact": "npm:@rbxts/react-ts@^1.0.1",
+    "@rbxts/react": "^0.3.1",
+    "@rbxts/react-roblox": "^0.3.1",
     "@rbxts/shared-components-flamework": "^1.1.5"
   }
 }
