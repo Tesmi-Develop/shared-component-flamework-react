@@ -6,8 +6,6 @@ interface SharedComponentProviderProps<S extends object> extends React.PropsWith
 	component: SharedComponent<S>;
 }
 
-function SharedComponentProvider<S extends object>({ component, children }: SharedComponentProviderProps<S>) {
+export function SharedComponentProvider<S extends object>({ component, children }: SharedComponentProviderProps<S>) {
 	return <SharedComponentContext.Provider value={component}>{children}</SharedComponentContext.Provider>;
 }
-
-export default SharedComponentProvider;
