@@ -1,8 +1,8 @@
 import { useState, useEffect } from "@rbxts/react";
-import UseSharedComponent from "./use-shared-component";
 import { SharedComponent } from "@rbxts/shared-components-flamework";
+import { UseSharedComponent } from "./use-shared-component";
 
-export default function UseSharedComponentSelector<S extends object, R>(
+export function UseSharedComponentSelector<S extends object, R>(
 	selector: (state: S) => R,
 	predicate?: (a: R, b: R) => boolean,
 ) {
